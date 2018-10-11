@@ -55,3 +55,5 @@
 ?>
 </head>
 <body <?php body_class('slides animated cards smooth  animated stage-2'); ?>>
+
+<?php get_template_part('inc/svg-sprite' ); ?>
