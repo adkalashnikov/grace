@@ -14,6 +14,8 @@
 <meta charset="UTF-8">
 <meta name= "viewport" content= "width=device-width, initial-scale=1.0" >
 <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+<link href="https://fonts.googleapis.com/css?family=Oranienbaum&amp;subset=cyrillic" rel="stylesheet">
+
 <link rel="icon" type="image/png" href="<?php echo get_template_directory_uri(); ?>/images/icon.png" />
 
 <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/style.css">
