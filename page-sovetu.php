@@ -19,7 +19,7 @@ if (is_mobile()) {
   <div class="logo"><a href="<?php echo home_url(); ?>"></a></div>
 
   <div class="top-right">
-    <a href="tel:+380933657297" class="tr-tel">093 365-72-97</a>
+    <?php get_template_part('inc/phone-link' ); ?>
     <a href="http://www.odnoklassniki.ru/profile/249373513305" class="ok" target="_blank"></a>
     <a href="https://vk.com/gracestudio_com_ua" class="vk" target="_blank"></a>
   </div>
@@ -50,7 +50,7 @@ if (is_mobile()) {
       
     </div>
     <div class="sbm-foo">
-      <a href="tel:+380933657297" class="tr-tel">093 365-72-97</a>
+      <?php get_template_part('inc/phone-link' ); ?>
       <a href="http://www.odnoklassniki.ru/profile/249373513305" class="ok" target="_blank"></a>
       <a href="https://vk.com/gracestudio_com_ua" class="vk" target="_blank"></a>
     </div>
