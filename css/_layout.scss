@@ -1,0 +1,112 @@
+.cont-650 {
+  &.custom {
+    padding: 50px 0;
+
+    .scont-left {
+      margin-left: 0;
+      width: 425px;
+    }
+
+    .scont-right {
+      margin-right: 0;
+
+      ::-webkit-input-placeholder {color:#808080;font-size: 16px;letter-spacing: 0.2em;}
+      ::-moz-placeholder          {color:#808080;font-size: 16px;letter-spacing: 0.2em;}
+      :-moz-placeholder           {color:#808080;font-size: 16px;letter-spacing: 0.2em;}
+      :-ms-input-placeholder      {color:#808080;font-size: 16px;letter-spacing: 0.2em;}
+
+      .wpcf7-submit {
+        border: 1px solid #7a4c7b;
+        margin-top: 10px !important;
+
+        &:hover {
+          color: #fff !important;
+          background: #691A66 !important;
+        }
+      }
+    }
+
+    input {
+      color: #808080;
+      border-bottom: 1px solid #737373;
+      margin-bottom: 30px;
+      padding-bottom: 3px;
+      letter-spacing: 0.2em;
+    }
+
+    .scr-title {
+      text-align: left;
+      font-size: 16px;
+      color: #000;
+    }
+
+    .scl-item {
+      color: #808080;
+      text-align: left;
+      font-size: 16px;
+
+      a {
+        color: #808080;
+        font-size: 16px;
+      }
+
+      &.it1 {
+        background: url(images/ic-ph2.png) no-repeat 0 0;
+      }
+
+      &.it2 {
+        background: url(images/ic-pl2.png) no-repeat 0 5px;
+      }
+
+      &.it3 {
+        background: url(images/ic-sk2.png) no-repeat 0 0;
+      }
+
+      &.it4 {
+        background: url(images/ic-em2.png) no-repeat 0 0;
+      }
+    }
+  }
+}
+
+.btn {
+  &.btn-default {
+    letter-spacing: 0.2em;
+    background: transparent;
+    border: 1px solid #7a4c7b;
+    text-decoration: none;
+    color: #808080;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 16px;
+    height: 42px;
+    line-height: 42px;
+    padding: 0 40px;
+    transition: all 0.2s;
+
+    &:hover {
+      color: #fff;
+      background: #691A66;
+    }
+  }
+}
+
+.page-cont {
+  .text-align-left {
+    text-align: left;
+  }
+
+  .table-bordered {
+    tr:first-child {
+      td {
+        font-weight: 700;
+      }
+    }
+
+    td {
+      border: 1px solid #000;
+      padding: 10px;
+      vertical-align: middle;
+    }
+  }
+}
