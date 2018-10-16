@@ -41,14 +41,14 @@
 
 
 
-<section class="slide fade kenBurns before" data-title="Главная">
+<section class="slide fade kenBurns before slide-1" data-title="Главная">
   <div class="content">
     <div class="container">
       <div class="wrap-cont">
 
         <div class="t1185">
           <div class="actionButton sidebarTrigger" data-sidebar-id="1" id="menu-btn">Меню</div>
-      
+
           <div class="logo"><a href="<?php echo home_url(); ?>"></a></div>
 
           <div class="top-right">
@@ -57,11 +57,9 @@
             <a href="https://vk.com/gracestudio_com_ua" class="vk" target="_blank"></a>
           </div>
         </div>
-      
-        <div class="w1185" id="home">  
-          <div id="logo-box">
-            <?php get_template_part('blogo'); ?>
-          </div>  
+
+        <div class="w1185" id="home">
+            <?php get_template_part('inc/home-slider' ); ?>
         </div>
 
         <div class="b1185 mainp">
@@ -72,12 +70,10 @@
             <a href="#works">Наши работы</a>
           </div>
         </div>
-        
-          
       </div>
     </div>
   </div>
-  <div class="background" style="background-image:url(http://gracestudio.com.ua/wp-content/uploads/2016/04/DB4_5157.jpg)"></div>
+  <div class="background"></div>
 </section>
 
 
@@ -259,38 +255,3 @@
   </div>
   <div class="background" style="background-image:url(<?php bloginfo('template_url');?>/images/s4.jpg)"></div>
 </section>
-
-
-
-
-
-<script>
-function ready(){
-var container = document.getElementById("home");
-var inner = document.getElementById("logo-box");
-var inHeight = inner.offsetHeight;
-container.style.height=(window.innerHeight);
-container.style.width=window.innerWidth;
-var conHeight=container.offsetHeight;
-inner.style.marginTop = (conHeight-inHeight)/2+'px';
-
-  document.getElementById('logo-box').setAttribute("class","visible");
-
-  var fill = document.getElementById('fil0');
-  fill.setAttribute("class","");
-  fill.style.display = "inline-block";
-  new Vivus('mysvg', {
-    type:  'oneByOne', 
-    duration: 300, 
-    animTimingFunction: Vivus.EASE, 
-    pathTimingFunction: Vivus.EASE
-  }, function(){
-    //console.log(this.el.setAttribute("class","filled"));
-  });
-  setTimeout(function(){
-    fill.setAttribute("class","filled");
-  },5000);
-}
-
-document.addEventListener("DOMContentLoaded", ready);
-</script>

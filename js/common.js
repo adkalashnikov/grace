@@ -22,6 +22,57 @@ $('#slider').flexslider({
   }
 });
 
+// слайдер на главной
+(function () {
+    if(!$('.js-slider-home').length ){
+        return;
+    }
+
+
+    $('.js-slider-home').flexslider({
+        animation: "slide",
+        slideshowSpeed: 3000,
+        pauseOnHover: true,
+        start: function(){
+            let slideImage = $('.slide-1 .background');
+            let bgUrl = $('.flex-active-slide').data('slide-bg');
+            let index = $('li:has(.flex-active)').index('.flex-control-nav li')+1;
+            let total = $('.flex-control-nav li').length;
+
+            $('.slide-1 .slider-couner').html(index + ' / ' + total);
+
+            $(slideImage)
+                .css('background-image', 'url(' + bgUrl + ')')
+            ;
+        },
+        before: function(){
+            let slideImage = $('.slide-1 .background');
+            let index = $('li:has(.flex-active)').index('.flex-control-nav li')+1;
+            let total = $('.flex-control-nav li').length;
+
+            $('.slide-1 .slider-couner').html(index + ' / ' + total);
+
+            $(slideImage)
+                .css('opacity', '0.4')
+            ;
+        },
+        after: function(){
+            let slideImage = $('.slide-1 .background');
+            let bgUrl = $('.flex-active-slide').data('slide-bg');
+            let index = $('li:has(.flex-active)').index('.flex-control-nav li')+1;
+            let total = $('.flex-control-nav li').length;
+
+            $('.slide-1 .slider-couner').html(index + ' / ' + total);
+
+            $(slideImage)
+                .css('background-image', 'url(' + bgUrl + ')')
+                .css('opacity', '1')
+            ;
+        },
+    });
+})();
+
+
 // ==========================================================
 $(':input[type=number]').on('mousewheel', function(e){
     e.preventDefault();
