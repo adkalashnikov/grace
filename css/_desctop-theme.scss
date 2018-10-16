@@ -47,16 +47,20 @@
 p {
   margin-bottom: 30px;
 }
-.slides h2 {
-  color: #fff;
-  font-size: 27px;
-  line-height: 45px;
-  font-weight: 400;
-  text-transform: uppercase;
-  letter-spacing: 2em;
-  text-align: center;
-  margin-bottom: 40px;
+.slides {
+  h2 {
+    color: #fff;
+    font-size: 27px;
+    line-height: 45px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2em;
+    text-align: center;
+    margin-bottom: 40px;
+    @extend .secondary-font;
+  }
 }
+
 .logo {
   width: 134px;
   height: 77px;
