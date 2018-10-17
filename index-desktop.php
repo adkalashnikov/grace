@@ -5,7 +5,6 @@
     </div>
 </nav>
 
-
 <nav class="sidebar sidebar-menu left" data-sidebar-id="1">
     <div class="close">закрыть</div>
 
@@ -58,13 +57,12 @@
     <div class="background"></div>
 </section>
 
-
-<section class=" slide fade kenBurns  before" data-title="Студия" name="studio">
+<section class="slide light kenBurns  before" data-title="Студия" name="studio">
     <div class="content">
         <div class="container">
             <div class="wrap-cont">
 
-                <div class="t1185">
+                <div class="t1185 header-light">
                     <?php get_template_part('inc/section-header'); ?>
                 </div>
 
@@ -81,16 +79,14 @@
             </div>
         </div>
     </div>
-    <div class="background"
-         style="background-image:url(http://gracestudio.com.ua/wp-content/uploads/2016/02/DB4_8738.jpg)"></div>
+    <div class="background"></div>
 </section>
 
-
-<section class="slide fade kenBurns before" data-title="Отзывы" name="reviews">
+<section class="slide light kenBurns before" data-title="Отзывы" name="reviews">
     <div class="content">
         <div class="container">
             <div class="wrap-cont">
-                <div class="t1185">
+                <div class="t1185 header-light">
                     <?php get_template_part('inc/section-header'); ?>
                 </div>
 
@@ -106,16 +102,15 @@
             </div>
         </div>
     </div>
-    <div class="background"
-         style="background-image:url(http://gracestudio.com.ua/wp-content/uploads/2016/03/4-65-of-83.jpg)"></div>
+    <div class="background"></div>
 </section>
 
-<section class="slide fade kenBurns before" data-title="Наши работы" name="works">
+<section class="slide light kenBurns before" data-title="Наши работы" name="works">
     <div class="content">
         <div class="container">
             <div class="wrap-cont">
 
-                <div class="t1185">
+                <div class="t1185 header-light">
                     <?php get_template_part('inc/section-header'); ?>
                 </div>
 
@@ -132,15 +127,14 @@
             </div>
         </div>
     </div>
-    <div class="background"
-         style="background-image:url(http://gracestudio.com.ua/wp-content/uploads/2016/03/jQByLWsRiQ0.jpg)"></div>
+    <div class="background"></div>
 </section>
 
-<section class="slide fade kenBurns before" data-title="Контакты" name="contact">
+<section class="slide light kenBurns before" data-title="Контакты" name="contact">
     <div class="content">
         <div class="container">
             <div class="wrap-cont">
-                <div class="t1185">
+                <div class="t1185 header-light">
                     <?php get_template_part('inc/section-header'); ?>
                 </div>
 
@@ -177,5 +171,5 @@
             </div>
         </div>
     </div>
-    <div class="background" style="background-image:url(<?php bloginfo('template_url'); ?>/images/s4.jpg)"></div>
+    <div class="background"></div>
 </section>

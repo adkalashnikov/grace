@@ -108,3 +108,54 @@
     }
   }
 }
+
+.header-light {
+  background: #ffffff;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.04);
+
+  .section-header {
+    padding: 0;
+
+    #menu-btn {
+      color: #A23C9F;
+    }
+
+    .nav-left {
+      a {
+        color: #333333;
+
+        &:hover {
+          &:after {
+            border-top: 1px dashed #BB6BD9;
+          }
+        }
+      }
+    }
+
+    .nav-right {
+      a {
+        color: #333333;
+
+        &:hover {
+          &:after {
+            border-top: 1px dashed #BB6BD9;
+          }
+        }
+      }
+    }
+
+    .top-right {
+      a {
+        color: #A23C9F;
+      }
+
+      .icon {
+        color: #333333;
+
+        &:hover {
+          color: #A23C9F;
+        }
+      }
+    }
+  }
+}

@@ -1562,6 +1562,11 @@ video::-webkit-media-controls {
   color: #fff;
   z-index: 10;
   overflow: hidden; /* visibility:hidden; */
+
+  &.light {
+    background: #ffffff;
+    color: #828282;
+  }
 }
 
 .slide.active { /* visibility:visible; */
