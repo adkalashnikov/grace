@@ -24,12 +24,11 @@ $('#slider').flexslider({
 
 // слайдер на главной
 (function () {
-    if(!$('.js-slider-home').length ){
+    if(!$('.js-home-slider').length ){
         return;
     }
 
-
-    $('.js-slider-home').flexslider({
+    $('.js-home-slider').flexslider({
         animation: "slide",
         slideshowSpeed: 3000,
         pauseOnHover: true,
@@ -39,7 +38,7 @@ $('#slider').flexslider({
             let index = $('li:has(.flex-active)').index('.flex-control-nav li')+1;
             let total = $('.flex-control-nav li').length;
 
-            $('.slide-1 .slider-couner').html(index + ' / ' + total);
+            $('.slide-1 .slider-couner').html(`${index} / <span> ${total} </span>`);
 
             $(slideImage)
                 .css('background-image', 'url(' + bgUrl + ')')
@@ -50,7 +49,7 @@ $('#slider').flexslider({
             let index = $('li:has(.flex-active)').index('.flex-control-nav li')+1;
             let total = $('.flex-control-nav li').length;
 
-            $('.slide-1 .slider-couner').html(index + ' / ' + total);
+            $('.slide-1 .slider-couner').html(`${index} / <span> ${total} </span>`);
 
             $(slideImage)
                 .css('opacity', '0.4')
@@ -62,7 +61,7 @@ $('#slider').flexslider({
             let index = $('li:has(.flex-active)').index('.flex-control-nav li')+1;
             let total = $('.flex-control-nav li').length;
 
-            $('.slide-1 .slider-couner').html(index + ' / ' + total);
+            $('.slide-1 .slider-couner').html(`${index} / <span> ${total} </span>`);
 
             $(slideImage)
                 .css('background-image', 'url(' + bgUrl + ')')

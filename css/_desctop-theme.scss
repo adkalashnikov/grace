@@ -22,10 +22,13 @@
   width: 100%;
   position: absolute;
   top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  -webkit-transform: translateX(-50%);
+  left: 0;
   z-index: 110;
+  
+  @media (min-width: 1185px) {
+    left: 50%;
+    transform: translateX(-50%);
+  }
 }
 .b1185 {
   max-width: 1285px;
@@ -47,20 +50,6 @@
 p {
   margin-bottom: 30px;
 }
-.slides {
-  h2 {
-    color: #fff;
-    font-size: 27px;
-    line-height: 45px;
-    font-weight: 400;
-    text-transform: uppercase;
-    letter-spacing: 2em;
-    text-align: center;
-    margin-bottom: 40px;
-    @extend .secondary-font;
-  }
-}
-
 .logo {
   a {
     display: block;
