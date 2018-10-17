@@ -20,10 +20,10 @@
 
     <div class="top-right">
         <?php get_template_part('inc/phone-link'); ?>
-        <a href="http://www.odnoklassniki.ru/profile/249373513305" target="_blank">
+        <a href="https://www.facebook.com/elenagracestudiowedding/" target="_blank">
             <svg class="icon icon-fb"><use xlink:href="#icon-fb"></use></svg>
         </a>
-        <a href="https://vk.com/gracestudio_com_ua" target="_blank">
+        <a href="https://www.instagram.com/elenagracestudio/" target="_blank">
             <svg class="icon icon-intsagram"><use xlink:href="#icon-intsagram"></use></svg>
         </a>
     </div>
