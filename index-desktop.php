@@ -74,7 +74,8 @@
                             <h2>лучшее<br> <span>для вас</span></h2>
                             <div class="text">
                                 <p>
-                                    На сегодняшний день в студии стиля «Grace» большой выбор моделей вечерних и свадебных
+                                    На сегодняшний день в студии стиля «Grace» большой выбор моделей вечерних и
+                                    свадебных
                                     платьев, которые можно просмотреть в каталоге нашего сайта и оформить заказ в режиме
                                     он-лайн.
                                 </p>
@@ -86,7 +87,9 @@
                             </div>
                             <a href="<?php echo get_permalink(5); ?>" class="btn-more">
                                 Записаться на встречу
-                                <svg class="icon icon-arr-right"><use xlink:href="#icon-arr-right"></use></svg>
+                                <svg class="icon icon-arr-right">
+                                    <use xlink:href="#icon-arr-right"></use>
+                                </svg>
                             </a>
                         </div>
 
@@ -115,11 +118,6 @@
                     <h2>Услуги пошива</h2>
                     <a href="<?php echo get_permalink(18); ?>" class="btn-more">посмотреть</a>
                 </div>
-
-                <div class="b1185 mainp">
-                    <?php wp_nav_menu(array('menu' => 3)); ?>
-                </div>
-
             </div>
         </div>
         <div class="scroll-icon"></div>
@@ -127,27 +125,62 @@
     <div class="background"></div>
 </section>
 
-<section class="slide light kenBurns before" data-title="Наши работы" name="works">
+<section class="slide slide-works light kenBurns before" data-title="Наши работы" name="works">
     <div class="content">
-        <div class="container">
-            <div class="wrap-cont">
+        <div class="t1185 header-light">
+            <?php get_template_part('inc/section-header'); ?>
+        </div>
 
-                <div class="t1185 header-light">
-                    <?php get_template_part('inc/section-header'); ?>
+        <div class="works-wrapper">
+            <div class="work-item work-item1">
+                <div class="inner">
+                    <div class="subtitle">Наши работы</div>
+
+                    <div class="title">Свадебные платья</div>
+
+                    <div>
+                        <a href="<?php echo get_permalink(238); ?>" class="btn-more">Подробнее</a>
+                    </div>
                 </div>
+            </div>
 
-                <div class="w1185 justify">
+            <div class="work-item work-item2">
+                <div class="inner">
+                    <div class="subtitle">Наши работы</div>
 
-                    <h2>Наши работы</h2>
-                    <a href="<?php echo get_permalink(238); ?>" class="btn-more">посмотреть</a>
+                    <div class="title">Вечернее и коктельные платья</div>
+
+                    <div>
+                        <a href="<?php echo get_permalink(240); ?>" class="btn-more">Подробнее</a>
+                    </div>
                 </div>
+            </div>
 
-                <div class="b1185 mainp">
-                    <?php wp_nav_menu(array('menu' => 4)); ?>
+            <div class="work-item work-item3">
+                <div class="inner">
+                    <div class="subtitle">Наши работы</div>
+
+                    <div class="title">Пальто</div>
+
+                    <div>
+                        <a href="<?php echo get_permalink(242); ?>" class="btn-more">Подробнее</a>
+                    </div>
                 </div>
+            </div>
 
+            <div class="work-item work-item4">
+                <div class="inner">
+                    <div class="subtitle">Наши работы</div>
+
+                    <div class="title">Мужская одежда</div>
+
+                    <div>
+                        <a href="<?php echo get_permalink(244); ?>" class="btn-more">Подробнее</a>
+                    </div>
+                </div>
             </div>
         </div>
+
         <div class="scroll-icon"></div>
     </div>
     <div class="background"></div>
