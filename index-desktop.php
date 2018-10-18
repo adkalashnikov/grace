@@ -68,15 +68,34 @@
                 </div>
 
                 <div class="w1185">
-                    <h2>Студия</h2>
-                    <a href="<?php echo get_permalink(5); ?>" class="btn-more">посмотреть</a>
+                    <div class="row">
+                        <div class="left-col">
+                            <div class="subtitle">the best for you</div>
+                            <h2>лучшее<br> <span>для вас</span></h2>
+                            <div class="text">
+                                <p>
+                                    На сегодняшний день в студии стиля «Grace» большой выбор моделей вечерних и свадебных
+                                    платьев, которые можно просмотреть в каталоге нашего сайта и оформить заказ в режиме
+                                    он-лайн.
+                                </p>
+
+                                <p>
+                                    Если вы не нашли подходящего варианта, у нас можно воспользоваться услугой
+                                    индивидуального пошива различных видов стильной одежды.
+                                </p>
+                            </div>
+                            <a href="<?php echo get_permalink(5); ?>" class="btn-more">
+                                Записаться на встречу
+                                <svg class="icon icon-arr-right"><use xlink:href="#icon-arr-right"></use></svg>
+                            </a>
+                        </div>
+
+                        <div class="right-col">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/studio-bg.png" alt="bg-image">
+                            <a href="<?php echo get_permalink(238); ?>" class="text-link">примеры работ</a>
+                        </div>
+                    </div>
                 </div>
-
-                <div class="b1185 mainp">
-                    <?php wp_nav_menu(array('menu' => 2)); ?>
-                </div>
-
-
             </div>
         </div>
         <div class="scroll-icon"></div>

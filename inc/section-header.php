@@ -12,7 +12,11 @@
         </div>
     </div>
 
-    <div class="logo"><a href="<?php echo home_url(); ?>"></a></div>
+    <div class="logo">
+        <a href="<?php echo home_url(); ?>">
+            <svg class="icon icon-logo"><use xlink:href="#icon-logo"></use></svg>
+        </a>
+    </div>
 
     <div class="nav-right">
         <?php wp_nav_menu(array('menu' => 19)); ?>

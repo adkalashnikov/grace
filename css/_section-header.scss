@@ -109,6 +109,10 @@
       margin-left: 25px;
     }
   }
+
+  .tr-tel {
+    font-weight: 500
+  }
 }
 
 .header-light {
@@ -116,7 +120,7 @@
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.04);
 
   .section-header {
-    padding: 0;
+    padding: 10px 0;
 
     #menu-btn {
       color: #A23C9F;
@@ -157,6 +161,14 @@
         &:hover {
           color: #A23C9F;
         }
+      }
+    }
+
+    .logo {
+      a {
+        width: 85px;
+        height: 48px;
+        color: #A23C9F;
       }
     }
   }
