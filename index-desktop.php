@@ -53,11 +53,12 @@
                 </div>
             </div>
         </div>
+        <div class="scroll-icon"></div>
     </div>
     <div class="background"></div>
 </section>
 
-<section class="slide light kenBurns  before" data-title="Студия" name="studio">
+<section class="slide slide-studio light kenBurns  before" data-title="Студия" name="studio">
     <div class="content">
         <div class="container">
             <div class="wrap-cont">
@@ -78,6 +79,7 @@
 
             </div>
         </div>
+        <div class="scroll-icon"></div>
     </div>
     <div class="background"></div>
 </section>
@@ -101,6 +103,7 @@
 
             </div>
         </div>
+        <div class="scroll-icon"></div>
     </div>
     <div class="background"></div>
 </section>
@@ -126,6 +129,7 @@
 
             </div>
         </div>
+        <div class="scroll-icon"></div>
     </div>
     <div class="background"></div>
 </section>

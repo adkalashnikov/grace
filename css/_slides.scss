@@ -2519,6 +2519,8 @@ html:not(.page-loaded) .slides .slide.selected {
   height: 6px;
   -webkit-border-radius: 3px;
   border-radius: 3px;
+  background-color: #E0E0E0;
+  opacity: 1;
 }
 
 /* tooltitps for titles */
@@ -2684,6 +2686,11 @@ html:not(.page-loaded) .slides .slide.selected {
 
 .navigation li.selected:after {
   opacity: 1;
+  background-color: #A23C9F;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-left: -2px;
 }
 
 /* nav in panel */

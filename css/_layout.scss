@@ -143,3 +143,11 @@
   width: 16px;
   height: 16px;
 }
+
+@keyframes scroll {
+  0%{-webkit-transform:translate(0, 100%);transform:translate(0, 100%)}
+  25%{-webkit-transform:translate(0, 100%);transform:translate(0, 100%)}
+  35%{-webkit-transform:translate(0, 200%);transform:translate(0, 200%)}
+  35.001%{-webkit-transform:translate(0, 0%);transform:translate(0, 0%)}
+  100%{-webkit-transform:translate(0, 100%);transform:translate(0, 100%)}
+}
