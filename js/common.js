@@ -28,45 +28,40 @@ $('#slider').flexslider({
         return;
     }
 
+    let totalSlides = $('.js-home-slider .slides > li').length;
+    let slideImage = $('.slide-1 .background');
+
+    function zeroFill(number, width) {
+        width -= number.toString().length;
+        if (width > 0) {
+            return new Array( width + (/\./.test( number ) ? 2 : 1) ).join( '0' ) + number;
+        }
+        return number + ""; // always return a string
+    }
+
+    function updateBackground(){
+        let bgUrl = $('.flex-active-slide').data('slide-bg');
+
+        $(slideImage).css('background-image', 'url(' + bgUrl + ')');
+    }
+
+    $('.slide-1 .slider-couner').each(function(i) {
+        $(this).html(`${zeroFill(i + 1, 2)} / <span> ${zeroFill(totalSlides, 2)} </span>`);
+    });
+
     $('.js-home-slider').flexslider({
         animation: "slide",
         slideshowSpeed: 3000,
-        pauseOnHover: true,
+        // pauseOnHover: true,
         start: function(){
-            let slideImage = $('.slide-1 .background');
-            let bgUrl = $('.flex-active-slide').data('slide-bg');
-            let index = $('li:has(.flex-active)').index('.flex-control-nav li')+1;
-            let total = $('.flex-control-nav li').length;
-
-            $('.slide-1 .slider-couner').html(`${index} / <span> ${total} </span>`);
-
-            $(slideImage)
-                .css('background-image', 'url(' + bgUrl + ')')
-            ;
+            updateBackground();
         },
         before: function(){
-            let slideImage = $('.slide-1 .background');
-            let index = $('li:has(.flex-active)').index('.flex-control-nav li')+1;
-            let total = $('.flex-control-nav li').length;
-
-            $('.slide-1 .slider-couner').html(`${index} / <span> ${total} </span>`);
-
-            $(slideImage)
-                .css('opacity', '0.4')
-            ;
+            $(slideImage).css('opacity', '0.4');
         },
         after: function(){
-            let slideImage = $('.slide-1 .background');
-            let bgUrl = $('.flex-active-slide').data('slide-bg');
-            let index = $('li:has(.flex-active)').index('.flex-control-nav li')+1;
-            let total = $('.flex-control-nav li').length;
-
-            $('.slide-1 .slider-couner').html(`${index} / <span> ${total} </span>`);
-
-            $(slideImage)
-                .css('background-image', 'url(' + bgUrl + ')')
-                .css('opacity', '1')
-            ;
+            updateBackground();
+            $(slideImage).css('opacity', '1');
         },
     });
 })();

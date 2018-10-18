@@ -41,14 +41,16 @@
     width: auto;
     height: auto;
     display: inline-block;
-    padding: 0 22px;
+    padding: 12px 22px;
     font-style: normal;
     font-weight: 300;
     font-size: 16px;
+    line-height: 1;
     text-transform: uppercase;
+    letter-spacing: normal;
 
     .icon {
-      margin-left: 22px;
+      margin-left: 10px;
     }
   }
 }
