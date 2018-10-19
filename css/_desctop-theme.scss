@@ -6,7 +6,7 @@
 }
 .w1185 {
   max-width: 1285px;
-  padding: 50px;
+  padding: 0 50px;
   margin: auto;
 }
 .w1185.pad-t-15 {
@@ -1480,7 +1480,7 @@ span.zwr-bl2-text {
 
   .scroll-icon {
     position: absolute;
-    bottom: 20px;
+    bottom: 30px;
     left: 50%;
     width: 1px;
     height: 60px;
@@ -1495,6 +1495,11 @@ span.zwr-bl2-text {
       top: -100%;
       left: 0;
       animation: scroll 2s linear infinite;
+    }
+
+    &.top {
+      bottom: auto;
+      top: 98px;
     }
   }
 
@@ -1563,12 +1568,15 @@ span.zwr-bl2-text {
 
 .slide-studio {
   .row {
-    padding: 90px 0 110px 0;
+    padding: 158px 0 110px 0;
   }
 
   .left-col {
     max-width: 530px;
     flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
     .btn-more {
       margin-top: 5px;
@@ -1611,7 +1619,7 @@ span.zwr-bl2-text {
   }
 
   .right-col {
-    padding-left: 60px;
+    padding-left: 100px;
     max-height: 90vh;
     position: relative;
 

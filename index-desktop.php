@@ -38,7 +38,6 @@
     </div>
 </nav>
 
-
 <section class="slide fade kenBurns before slide-1" data-title="Главная">
     <div class="content">
         <div class="container">
@@ -60,6 +59,7 @@
 
 <section class="slide slide-studio light kenBurns  before" data-title="Студия" name="studio">
     <div class="content">
+        <div class="scroll-icon top"></div>
         <div class="container">
             <div class="wrap-cont">
 
@@ -85,12 +85,15 @@
                                     индивидуального пошива различных видов стильной одежды.
                                 </p>
                             </div>
-                            <a href="<?php echo get_permalink(5); ?>" class="btn-more">
-                                Записаться на встречу
-                                <svg class="icon icon-arr-right">
-                                    <use xlink:href="#icon-arr-right"></use>
-                                </svg>
-                            </a>
+
+                            <div>
+                                <a href="<?php echo get_permalink(5); ?>" class="btn-more">
+                                    Записаться на встречу
+                                    <svg class="icon icon-arr-right">
+                                        <use xlink:href="#icon-arr-right"></use>
+                                    </svg>
+                                </a>
+                            </div>
                         </div>
 
                         <div class="right-col">
@@ -108,6 +111,7 @@
 
 <section class="slide light kenBurns before" data-title="Отзывы" name="reviews">
     <div class="content">
+        <div class="scroll-icon top"></div>
         <div class="container">
             <div class="wrap-cont">
                 <div class="t1185 header-light">
@@ -139,7 +143,12 @@
                     <div class="title">Свадебные платья</div>
 
                     <div>
-                        <a href="<?php echo get_permalink(238); ?>" class="btn-more">Подробнее</a>
+                        <a href="<?php echo get_permalink(238); ?>" class="btn-more">
+                            Подробнее
+                            <svg class="icon icon-arr-right">
+                                <use xlink:href="#icon-arr-right"></use>
+                            </svg>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -151,7 +160,12 @@
                     <div class="title">Вечернее и коктельные платья</div>
 
                     <div>
-                        <a href="<?php echo get_permalink(240); ?>" class="btn-more">Подробнее</a>
+                        <a href="<?php echo get_permalink(240); ?>" class="btn-more">
+                            Подробнее
+                            <svg class="icon icon-arr-right">
+                                <use xlink:href="#icon-arr-right"></use>
+                            </svg>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -163,7 +177,12 @@
                     <div class="title">Пальто</div>
 
                     <div>
-                        <a href="<?php echo get_permalink(242); ?>" class="btn-more">Подробнее</a>
+                        <a href="<?php echo get_permalink(242); ?>" class="btn-more">
+                            Подробнее
+                            <svg class="icon icon-arr-right">
+                                <use xlink:href="#icon-arr-right"></use>
+                            </svg>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -175,13 +194,16 @@
                     <div class="title">Мужская одежда</div>
 
                     <div>
-                        <a href="<?php echo get_permalink(244); ?>" class="btn-more">Подробнее</a>
+                        <a href="<?php echo get_permalink(244); ?>" class="btn-more">
+                            Подробнее
+                            <svg class="icon icon-arr-right">
+                                <use xlink:href="#icon-arr-right"></use>
+                            </svg>
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
-
-        <div class="scroll-icon"></div>
     </div>
     <div class="background"></div>
 </section>
