@@ -1411,6 +1411,26 @@ span.zwr-bl2-text {
 @media only screen and (max-width:320px) {
 }
 
+.page-header {
+  display: flex;
+  padding-top: 50px;
+  justify-content: space-between;
+  align-items: center;
+
+  .logo {
+    color: #ffffff;
+  }
+
+  .icon {
+    margin-left: 45px;
+    color: #ffffff;
+  }
+
+  .icon-intsagram {
+    margin-left: 25px;
+  }
+}
+
 .row {
   display: flex;
   flex-wrap: wrap;

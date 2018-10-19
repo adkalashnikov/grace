@@ -15,15 +15,7 @@ if (is_mobile()) {
 </script>
 
 <div class="t1185">
-  <div class="actionButton sidebarTrigger" data-sidebar-id="1" id="menu-btn">Меню</div>
-
-  <div class="logo"><a href="<?php echo home_url(); ?>"></a></div>
-
-  <div class="top-right">
-    <?php get_template_part('inc/phone-link' ); ?>
-    <a href="http://www.odnoklassniki.ru/profile/249373513305" class="ok" target="_blank"></a>
-    <a href="https://vk.com/gracestudio_com_ua" class="vk" target="_blank"></a>
-  </div>
+    <?php get_template_part('inc/page-header'); ?>
 </div>
 
 

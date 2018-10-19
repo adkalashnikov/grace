@@ -10,7 +10,11 @@
 
     <div class="content">
         <div class="sbm-logo">
-            <div class="logo"><a href="<?php echo home_url(); ?>"></a></div>
+            <div class="logo">
+                <a href="<?php echo home_url(); ?>">
+                    <svg class="icon icon-logo"><use xlink:href="#icon-logo"></use></svg>
+                </a>
+            </div>
         </div>
         <div class="sbm-navs">
             <div class="sbmn-item">
