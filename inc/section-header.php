@@ -1,14 +1,14 @@
 <div class="section-header">
-    <div class="sidebarTrigger" data-sidebar-id="1" id="menu-btn" title="РјРµРЅСЋ">
+    <div class="sidebarTrigger" data-sidebar-id="1" id="menu-btn" title="меню">
         <svg class="icon icon-hamburger"><use xlink:href="#icon-hamburger"></use></svg>
     </div>
 
     <div class="nav-left">
         <div class="sections-nav">
-            <a href="#studio">РЎС‚СѓРґРёСЏ</a>
-            <a href="#reviews">РћС‚Р·С‹РІС‹</a>
-            <a href="#works">РќР°С€Рё СЂР°Р±РѕС‚С‹</a>
-            <a href="#contact">РљРѕРЅС‚Р°РєС‚С‹</a>
+            <a href="#studio">Студия</a>
+            <a href="#reviews">Отзывы</a>
+            <a href="#works">Наши работы</a>
+            <a href="#contact">Контакты</a>
         </div>
     </div>
 
