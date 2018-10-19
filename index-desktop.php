@@ -78,7 +78,7 @@
     <div class="background"></div>
 </section>
 
-<section class="slide light kenBurns before" data-title="Отзывы" name="reviews">
+<section class="slide slide-reviews light kenBurns before" data-title="Отзывы" name="reviews">
     <div class="content">
         <div class="scroll-icon top"></div>
         <div class="container">
@@ -88,8 +88,7 @@
                 </div>
 
                 <div class="w1185">
-                    <h2>Услуги пошива</h2>
-                    <a href="<?php echo get_permalink(18); ?>" class="btn-more">посмотреть</a>
+                    <?php get_template_part('inc/reviews'); ?>
                 </div>
             </div>
         </div>

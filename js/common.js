@@ -67,6 +67,35 @@ $('#slider').flexslider({
 })();
 
 
+//отзывы на главной
+(function () {
+    if(!$('.js-reviews').length ){
+        return;
+    }
+
+    function zeroFill(number, width) {
+        width -= number.toString().length;
+        if (width > 0) {
+            return new Array( width + (/\./.test( number ) ? 2 : 1) ).join( '0' ) + number;
+        }
+        return number + ""; // always return a string
+    }
+
+    $('.js-reviews').flexslider({
+        animation: "fade",
+        slideshowSpeed: 3000,
+        pauseOnHover: true,
+        start: function(){
+        },
+        before: function(){
+        },
+        after: function(){
+        },
+    });
+})();
+
+
+
 // ==========================================================
 $(':input[type=number]').on('mousewheel', function(e){
     e.preventDefault();
