@@ -161,11 +161,6 @@ svg#mysvg {
 .menu-uslugi-container {
   padding: 0 100px;
 }
-.scont-left {
-  width: 345px;
-  float: left;
-  margin-left: 135px;
-}
 .scl-item {
   margin-bottom: 25px;
   padding-left: 40px;
@@ -1726,5 +1721,100 @@ span.zwr-bl2-text {
     width: 25%;
     background: url("images/works1.jpg") no-repeat 50% 50%;
     background-size: cover;
+  }
+}
+
+.slide-contact {
+  .row-wrapper {
+    padding-top: 78px;
+  }
+
+  .left-col {
+    width: 50%;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .right-col {
+    width: 50%;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 68px;
+  }
+
+  .subtitle {
+    font-family: Oranienbaum;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 20px;
+    color: #828282;
+  }
+
+  h2 {
+    font-family: Oranienbaum;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 52px;
+    font-size: 50px;
+    color: #A23C9F;
+    margin-top: 8px;
+  }
+
+  .info {
+    margin-top: 60px;
+    color: #333;
+
+    .col-1 {
+      flex-shrink: 0;
+      width: 240px;
+    }
+
+    .col-2 {
+      flex-grow: 1;
+      padding-left: 82px;
+    }
+
+    a {
+      font-style: normal;
+      font-weight: 300;
+      font-size: 16px;
+      color: #333333;
+      text-decoration: none;
+      display: block;
+      margin-bottom: 10px;
+
+      &:hover {
+        color: #A23C9F;
+      }
+    }
+
+    .icon {
+      margin-right: 10px;
+    }
+
+    .socials {
+      a {
+        text-transform: uppercase;
+      }
+    }
+  }
+
+  .info-row2 {
+    margin-top: 50px;
+  }
+
+  .subtitle-2 {
+    font-family: Oranienbaum;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 16px;
+    color: #828282;
+    margin-bottom: 12px;
   }
 }

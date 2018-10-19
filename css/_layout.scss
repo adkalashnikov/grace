@@ -2,30 +2,6 @@
   &.custom {
     padding: 50px 0;
 
-    .scont-left {
-      margin-left: 0;
-      width: 425px;
-    }
-
-    .scont-right {
-      margin-right: 0;
-
-      ::-webkit-input-placeholder {color:#808080;font-size: 16px;letter-spacing: 0.2em;}
-      ::-moz-placeholder          {color:#808080;font-size: 16px;letter-spacing: 0.2em;}
-      :-moz-placeholder           {color:#808080;font-size: 16px;letter-spacing: 0.2em;}
-      :-ms-input-placeholder      {color:#808080;font-size: 16px;letter-spacing: 0.2em;}
-
-      .wpcf7-submit {
-        border: 1px solid #7a4c7b;
-        margin-top: 10px !important;
-
-        &:hover {
-          color: #fff !important;
-          background: #691A66 !important;
-        }
-      }
-    }
-
     input {
       color: #808080;
       border-bottom: 1px solid #737373;

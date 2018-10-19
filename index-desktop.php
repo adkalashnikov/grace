@@ -208,44 +208,63 @@
     <div class="background"></div>
 </section>
 
-<section class="slide light kenBurns before" data-title="Контакты" name="contact">
+<section class="slide slide-contact light kenBurns before" data-title="Контакты" name="contact">
     <div class="content">
+        <div class="scroll-icon top"></div>
         <div class="container">
             <div class="wrap-cont">
                 <div class="t1185 header-light">
                     <?php get_template_part('inc/section-header'); ?>
                 </div>
 
-                <div class="w1185 cont-650">
-                    <h2 class="scont-title">Контакты</h2>
+                <div class="w1185">
+                    <div class="row row-wrapper">
+                        <div class="left-col">
+                            <div class="subtitle">the best for you</div>
+                            <h2>Разрешите нам создать лучшее платье в вашей жизни!</h2>
 
-                    <div class="scont-left">
-                        <div class="scl-item it1">
-                            <?php get_template_part('inc/phone-link'); ?>
+                            <div class="info">
+                                <div class="row">
+                                    <div class="col-1">
+                                        <div class="subtitle-2">Приходите</div>
+                                        г. Черкассы, ул. Дашкевича, 19
+                                        “Крещатик-Сити”, -1 этаж
+                                        Студия стиля Grace (отдел №11)
+                                    </div>
+                                    <div class="col-2">
+                                        <div class="subtitle-2">Звоните</div>
+                                        <a href="tel:+380933657297" class="tr-tel">+38 093 365 72 97</a>
+                                        <a href="tel:+380983267535" class="tr-tel">+38 098 326 75 35</a>
+                                    </div>
+                                </div>
+
+                                <div class="row info-row2">
+                                    <div class="col-1">
+                                        <div class="subtitle-2">Пишите</div>
+                                        <a href="viber://chat?number=+380933657297">+38 093 365 72 97 (Viber)</a>
+                                        <a href="mailto:elenagracestudio@gmail.com">elenagracestudio@gmail.com</a>
+                                    </div>
+                                    <div class="col-2 socials">
+                                        <div class="subtitle-2">Лайкайте</div>
+                                        <a href="https://www.facebook.com/elenagracestudiowedding/" target="_blank">
+                                            <svg class="icon icon-fb"><use xlink:href="#icon-fb"></use></svg>
+                                            Facebook
+                                        </a>
+                                        <a href="https://www.instagram.com/elenagracestudio/" target="_blank">
+                                            <svg class="icon icon-intsagram"><use xlink:href="#icon-intsagram"></use></svg>
+                                            Instagram
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="scl-item it2">
-                            г. Черкассы, ул Дашкевича 19, <br>
-                            “Крещатик Сити” -1 этаж, отдел 11
-                        </div>
-                        <div class="scl-item it3">
-                            <a href="skype:elena.gracestudio?chat">elena.gracestudio</a>
-                        </div>
-                        <div class="scl-item it4">
-                            <a href="mailto:elenagracestudio@gmail.com">elenagracestudio@gmail.com</a>
+
+                        <div class="right-col">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2594.0921787333687!2d32.06288361569522!3d49.44497477934925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d14b7ce25a5683%3A0x57ee9f0aea5a52c!2z0YPQuy4g0J7RgdGC0LDRhNC40Y8g0JTQsNGI0LrQvtCy0LjRh9CwLCAxOSwg0KfQtdGA0LrQsNGB0YHRiywg0KfQtdGA0LrQsNGB0YHQutCw0Y8g0L7QsdC70LDRgdGC0YwsIDE4MDAw!5e0!3m2!1sru!2sua!4v1539934621669"
+                                    width="100%" height="560" frameborder="0" style="border:0" allowfullscreen></iframe>
                         </div>
                     </div>
-                    <div class="scont-right">
-                        <div class="scr-title">Оставить заявку</div>
-                        <?php echo do_shortcode('[contact-form-7 id="4" title="Контакты"]'); ?>
-                    </div>
-                    <div class="clear"></div>
                 </div>
-
-                <div class="b1185 mainp cont-foo">
-                    <a href="https://vk.com/murzak_av" target="_blank">Designed by Murzak</a>
-                    <a href="https://vk.com/html_developer" target="_blank">Powered by Adkalashnikov</a>
-                </div>
-
             </div>
         </div>
     </div>
