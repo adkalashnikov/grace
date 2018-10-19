@@ -1,3 +1,13 @@
+.clearfix {
+  &:before,
+  &:after {
+    content: '';
+    display: block;
+    width: 100%;
+    clear: both;
+  }
+}
+
 .cont-650 {
   &.custom {
     padding: 50px 0;

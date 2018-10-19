@@ -1,4 +1,8 @@
 .home-reviews {
+  .slides {
+    background: transparent;
+  }
+
   .slide-inner {
     display: flex;
     max-width: 1050px;
@@ -88,6 +92,20 @@
 
       &:hover {
         color: #A23C9F;
+      }
+    }
+  }
+
+  .flex-control-nav {
+    position: static;
+    margin-top: 22px;
+  }
+
+  .flex-control-paging {
+    li {
+      a {
+        width: 8px;
+        height: 8px;
       }
     }
   }

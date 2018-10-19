@@ -1,5 +1,5 @@
 <div class="js-reviews home-reviews">
-    <ul class="slides">
+    <ul class="slides clearfix">
         <?php
         $args = array(
             'posts_per_page' => 8,
